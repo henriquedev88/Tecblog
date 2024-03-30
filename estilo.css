@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    width: 920px;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(240, 235, 235);
+}
+#navbar{
+    text-align: center;
+    a{
+    text-decoration: none;
+    margin: auto 10px;
+    color: white;
+    }
+    background-color: rgb(194, 164, 30);
+    height: 130px;
+    a:hover{
+        background-color: white;
+        color: rgb(194, 164, 30);
+        padding: 10px
+        
+    }
+    h2{
+        padding-top: 20px;
+    }
+}
+#postagem1{
+    margin: 30px 150px;
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 660px;
+    h2{
+        padding: 7px 0px;
+        color: rgb(194, 164, 30);
+        margin-bottom: -10px;
+    }
+    img{
+        padding-top: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(194, 164, 30);
+    }
+}
+#postagem2{
+    margin: 30px 150px;
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 660px;
+    h2{
+        padding: 7px 0px;
+        color: rgb(194, 164, 30);
+        margin-bottom: -10px;
+    }
+    img{
+        padding-top: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(194, 164, 30);
+    }
+}
+#postagens{
+    width: 200px;
+    background-color: white;
+    h2{
+        background-color: gainsboro;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(194, 164, 30);
+    }
+    float: right;
+    margin-right: 20px;
+}
+
+#categorias{
+    background-color: white;
+    width: 200px;
+    h2{
+        background-color: gainsboro;
+        margin-bottom: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(194, 164, 30);
+        display: block;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    float: right;
+    margin-right: 20px;
+}
+#footer{
+    background-color: gray;
+    margin-top: -15px;
+    margin-bottom: 14px;
+    margin-left: 149px;
+    margin-right: 780px;
+    padding: 10px;
+    text-align: center;
+}
